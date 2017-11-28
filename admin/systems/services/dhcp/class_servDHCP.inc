@@ -65,6 +65,7 @@ class servdhcp extends goService
         $this->entryList = new sortableListing();
         $this->entryList->setDeleteable(false);
         $this->entryList->setEditable(false);
+        $this->entryList->setSortingEnabled(false);
         $this->entryList->setWidth("100%");
         $this->entryList->setHeight("400px");
         $this->entryList->setHeader(array(_("Type"),_("Option"),_("Address")));
