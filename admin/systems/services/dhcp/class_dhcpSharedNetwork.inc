@@ -33,7 +33,6 @@ class dhcpSharedNetwork extends dhcpPlugin
                     "allow bootp", "allow booting"));
     }
 
-
     function execute()
     {
         $smarty= get_smarty();
@@ -191,4 +190,3 @@ class dhcpSharedNetwork extends dhcpPlugin
 }
 
 // vim:tabstop=2:expandtab:shiftwidth=2:filetype=php:syntax:ruler:
-?>

@@ -168,5 +168,3 @@ class dhcpAdvanced extends plugin
     }
 
 }
-
-?>

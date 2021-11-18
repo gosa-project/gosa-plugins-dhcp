@@ -116,5 +116,3 @@ class dhcpSubClass extends dhcpPlugin
 
 
 }
-
-?>
